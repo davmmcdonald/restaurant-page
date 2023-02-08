@@ -91,7 +91,6 @@ html {
 }
 
 .button {
-    margin-bottom: 32px;
     padding: 12px 24px;
     background-color: var(--primary-color);
     border: solid 2px var(--primary-color);
@@ -144,4 +143,14 @@ button:hover {
     height: 2px;
     margin: 8px auto 32px auto;
     background-color: var(--primary-color);
+}
+
+.subheader {
+    margin-bottom: 16px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.centered {
+    text-align: center;
 }

@@ -1,5 +1,7 @@
 import displayHome from './home';
 import displayMenu from './menu';
+import displayAbout from './about';
+import displayContact from './contact';
 
 function createHeader() {
     const header = document.createElement('header');
@@ -58,8 +60,10 @@ function setNavItem(index) {
             displayMenu();
             break;
         case 2:
+            displayAbout();
             break;
         case 3:
+            displayContact();
             break;
     }
 }
@@ -101,7 +105,7 @@ function initializePage() {
     content.appendChild(createMain());
     content.appendChild(createFooter());
 
-    displayMenu();
+    displayHome();
 }
 
 export default initializePage;
